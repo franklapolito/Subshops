@@ -1,0 +1,25 @@
+unique_name: pos_ordersale
+object_type: dataset
+label: pos_ordersale
+columns:
+  - name: MD5KEY_ORDERSALE
+    data_type: string
+  - name: ChangeReceived
+    data_type: double
+  - name: OrderNumber
+    data_type: long
+  - name: TaxInclusiveAmount
+    data_type: long
+  - name: TaxAmount
+    data_type: double
+  - name: MealLocation
+    data_type: long
+  - name: TransactionId
+    data_type: long
+  - name: StoreNumber
+    data_type: double
+  - name: date
+    data_type: date
+connection_id: connection_pos_ordersale
+database: se_demo_btc
+table: pos_ordersale

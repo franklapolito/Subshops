@@ -1,0 +1,18 @@
+unique_name: StoreDimension
+object_type: dimension
+label: Store Dimension
+hierarchies:
+  - unique_name: StoreHierarchy
+    label: Store Hierarchy
+    levels:
+      - unique_name: StoreNumber
+level_attributes:
+  - unique_name: StoreNumber
+    label: Store Number
+    contains_unique_names: false
+    dataset: store_restaurant
+    is_unique_key: true
+    key_columns:
+      - STORE_NUMBER
+    name_column: STORE_ADDRESS1
+type: standard

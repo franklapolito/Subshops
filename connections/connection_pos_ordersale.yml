@@ -1,0 +1,6 @@
+unique_name: connection_pos_ordersale
+object_type: connection
+label: connection_pos_ordersale
+as_connection: Databricks
+database: se_demo_btc
+schema: subway

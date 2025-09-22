@@ -1,0 +1,6 @@
+unique_name: m_pos_ordersale_TaxAmount_avg
+object_type: metric
+label: Avg Tax Amount
+calculation_method: average
+column: TaxAmount
+dataset: pos_ordersale

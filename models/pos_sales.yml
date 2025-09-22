@@ -1,0 +1,14 @@
+unique_name: pos_sales
+object_type: model
+label: POS Sales
+metrics:
+  - unique_name: m_pos_ordersale_TaxAmount_avg
+relationships:
+  - unique_name: pos_ordersale_StoreNumber_to_StoreDimension_StoreNumber
+    from:
+      dataset: pos_ordersale
+      join_columns:
+        - StoreNumber
+    to:
+      dimension: StoreDimension
+      level: StoreNumber

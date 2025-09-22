@@ -1,0 +1,24 @@
+unique_name: store_restaurant
+object_type: dataset
+label: store_restaurant
+columns:
+  - name: STORE_ADDRESS1
+    data_type: string
+  - name: STORE_ADDRESS2
+    data_type: string
+  - name: DISTRIBUTION_REGION
+    data_type: string
+  - name: STORE_STATE
+    data_type: string
+  - name: STORE_CITY
+    data_type: string
+  - name: STORE_ZIP
+    data_type: long
+  - name: STORE_TYPE
+    data_type: string
+  - name: STORE_LOYALTY_FLAG
+    data_type: string
+  - name: STORE_NUMBER
+    data_type: long
+connection_id: connection_pos_ordersale
+table: store_restaurant
